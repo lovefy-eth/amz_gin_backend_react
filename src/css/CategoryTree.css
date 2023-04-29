@@ -1,0 +1,29 @@
+.rct-node {
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+.rct-text {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.rct-icon-parent-close:before {
+  content: '+';
+  color: #999;
+}
+
+.rct-icon-parent-open:before {
+  content: '-';
+  color: #999;
+}
+
+.rct-icon-leaf:before {
+  content: '';
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #999;
+  margin-right: 5px;
+}
